@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: brown;
+}
+
+.container {
+    display: flex;
+    width: 70%; 
+    max-width: 1000px; 
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+.form-section {
+    padding: 40px;
+    margin: 0px;
+    width: 45%;
+
+}
+
+.image-section {
+    flex: 1;
+    background-image: url('scd.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
+    width: calc(105% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.or-divider {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.social-buttons button {
+    background-color: #eee;
+    color: #333;
+    width: 48%; 
+}
+
+.social-buttons button:hover {
+    background-color: #ddd;
+}
+
+.signin-link {
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
